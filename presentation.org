@@ -1,11 +1,11 @@
 #+TITLE:     The Reproducible Research Repository
-#+AUTHOR:    Daniele Barchiesi, Luis Figueira, Chris Cannam and Mark Plumbley
-#+EMAIL:     d.barchiesi@qmul.ac.uk
-#+DATE:      2013-12-11 Wed
+#+DATE:      17 Dec 2013 - Digital Music Research Network
+#+BEAMER_HEADER_EXTRA: \author[Barchiesi et al.]{Daniele Barchiesi, Luis Figueira, Chris Cannam and Mark Plumbley}
+#+BEAMER_HEADER_EXTRA: \institute[C4DM]{Centre for Digital Music\\School of Electronic Engineering and Computer Science\\Queen Mary University of London\\[2ex]\texttt{name.surname@eecs.qmul.ac.uk}\\\titlegraphic{\includegraphics[width=1.5cm]{/Users/daniele/Research/myPapers/logos/c4dmLogo.pdf}}\titlegraphic{\includegraphics[width=1.5cm]{/Users/daniele/Research/myPapers/logos/qmLogo.pdf}}}
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+EXPORT_SELECT_TAGS: export
@@ -22,6 +22,9 @@
 #+latex_header: \mode<beamer>{\usecolortheme[named=blue]{structure}}
 #+latex_header: \mode<beamer>{\useoutertheme{shadow}}
 #+latex_header: \mode<beamer>{\useinnertheme{rounded}}
+#+latex_header: \setbeamertemplate{items}[ball]
+#+latex_header: \setbeamertemplate{blocks}[rounded][shadow=true]
+#+latex_header: \setbeamertemplate{navigation symbols}{}
 
 * What is wrong with research results?
 ** Many results in digital music are not reproducible 		    :B_block:

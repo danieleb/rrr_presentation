@@ -1,5 +1,5 @@
 #+TITLE:     The Reproducible Research Repository
-#+AUTHOR:    Daniele Barchiesi
+#+AUTHOR:    Daniele Barchiesi, Luis Figueira, Chris Cannam and Mark Plumbley
 #+EMAIL:     d.barchiesi@qmul.ac.uk
 #+DATE:      2013-12-11 Wed
 #+DESCRIPTION:
@@ -16,4 +16,19 @@
 #+startup: beamer
 #+LaTex_CLASS: beamer
 #+LaTex_CLASS_OPTIONS: [bigger]
+#+BEAMER_FRAME_LEVEL: 1
+#+COLUMNS: %40ITEM %10BEAMER_env(ENV) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+latex_header: \mode<beamer>{\usetheme{Rochester}}
+#+latex_header: \mode<beamer>{\usecolortheme[named=blue]{structure}}
+#+latex_header: \mode<beamer>{\useoutertheme{shadow}}
+#+latex_header: \mode<beamer>{\useinnertheme{rounded}}
 
+* The reproducible research repository
+
+The Reproducible Research Repository (RRR) reduces the barriers for reproducible research by enabling sharing of documents and resources.
+
+- Organised around /experiments/, self-contained units corresponding to research results tipycally included in academic publications
+- Each experiment is linked to /Datasets/, /Software/ and /Publications/
+
+* The second slide
+** A block

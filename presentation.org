@@ -1,7 +1,7 @@
 #+TITLE:     The Reproducible Research Repository
 #+DATE:      17 Dec 2013 - Digital Music Research Network
 #+BEAMER_HEADER_EXTRA: \author[Barchiesi et al.]{Daniele Barchiesi, Luis Figueira, Chris Cannam and Mark Plumbley}
-#+BEAMER_HEADER_EXTRA: \institute[C4DM]{Centre for Digital Music\\School of Electronic Engineering and Computer Science\\Queen Mary University of London\\[2ex]\texttt{name.surname@eecs.qmul.ac.uk}\\\titlegraphic{\includegraphics[width=1.5cm]{/Users/daniele/Research/myPapers/logos/c4dmLogo.pdf}}\titlegraphic{\includegraphics[width=1.5cm]{/Users/daniele/Research/myPapers/logos/qmLogo.pdf}}}
+#+BEAMER_HEADER_EXTRA: \institute[C4DM]{Centre for Digital Music\\School of Electronic Engineering and Computer Science\\Queen Mary University of London\\[2ex]\texttt{name.surname@eecs.qmul.ac.uk}\\\titlegraphic{\includegraphics[width=1.5cm]{images/c4dmLogo.pdf}}\titlegraphic{\includegraphics[width=1.5cm]{images/qmLogo.pdf}}}
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en

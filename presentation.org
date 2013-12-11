@@ -23,12 +23,21 @@
 #+latex_header: \mode<beamer>{\useoutertheme{shadow}}
 #+latex_header: \mode<beamer>{\useinnertheme{rounded}}
 
+* The Research Lifecycle
+ #+ATTR_LATEX: width=\textwidth
+[[./images/research-lifecycle.jpg]]
+
+* Soundsoftware.ac.uk
+- Reproducible research prizes (AES conf. on Semantic Audio)
+- Workshops on software carpentry
+- Software repository: code.soundsoftware.ac.uk
+- Reproducible Research Repository (RRR)
+
+The Reproducible Research Repository lowers the barriers for reproducible research by enabling sharing of resources and workflows
+
 * The reproducible research repository
 
 The Reproducible Research Repository (RRR) reduces the barriers for reproducible research by enabling sharing of documents and resources.
 
 - Organised around /experiments/, self-contained units corresponding to research results tipycally included in academic publications
 - Each experiment is linked to /Datasets/, /Software/ and /Publications/
-
-* The second slide
-** A block

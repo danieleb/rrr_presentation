@@ -23,21 +23,60 @@
 #+latex_header: \mode<beamer>{\useoutertheme{shadow}}
 #+latex_header: \mode<beamer>{\useinnertheme{rounded}}
 
+* What is wrong with research results?
+** Many results in digital music are not reproducible 		    :B_block:
+   :PROPERTIES:
+   :BEAMER_env: block
+   :END:
+- 82% of research develop software
+  - 39% of those took steps to make their code reproducible
+    - 35% of those published their code
+- *11%* of researchers published reproducible research code
+
+** The validity of unreproducible research can be questionable	    :B_block:
+   :PROPERTIES:
+   :BEAMER_env: block
+   :END:
+- Lack of statistical rigor can lead to misleading results: /fooled by randomness/
+- Lack of career incentives can lead to publication bias: /only positive results appear in journals/
+
 * The Research Lifecycle
  #+ATTR_LATEX: width=\textwidth
 [[./images/research-lifecycle.jpg]]
 
-* Soundsoftware.ac.uk
+* The soundsoftware project 					    :B_block:
+** Promoting reproducible research
+   :PROPERTIES:
+   :BEAMER_env: block
+   :END:
 - Reproducible research prizes (AES conf. on Semantic Audio)
 - Workshops on software carpentry
-- Software repository: code.soundsoftware.ac.uk
-- Reproducible Research Repository (RRR)
+- Software repository: http://code.soundsoftware.ac.uk
+- Reproducible Research Repository (RRR) http://rrr.soundsoftware.ac.uk
 
 The Reproducible Research Repository lowers the barriers for reproducible research by enabling sharing of resources and workflows
 
 * The reproducible research repository
+- Organised around *experiments*: self-contained units corresponding to figures and tables present in academic publications
+- Each experiment is linked to a number of *resources* 
+  - Datasets
+  - Software
+  - Publications
+- Each experiment contains *instructions* on how to reproduce results, including
+  - Software versions and parameters
+  - Description of workflows
 
-The Reproducible Research Repository (RRR) reduces the barriers for reproducible research by enabling sharing of documents and resources.
+* Reproducible research is reproducible
+** The reproducible Research Repository				    :B_block:
+   :PROPERTIES:
+   :BEAMER_env: block
+   :END:
+- RRR has been designed using Drupal, the biblio module and various other customizations
+- Go to https://code.soundsoftware.ac.uk/projects/rr-repo/wiki/How_to_create_RRR_from_scratch to find the instructions on how to recreate RRR
+** This presentation						    :B_block:
+   :PROPERTIES:
+   :BEAMER_env: block
+   :END:
+- Designed using orgmode and beamer
+- Go to https://github.com/danieleb/rrr_presentation to download it
 
-- Organised around /experiments/, self-contained units corresponding to research results tipycally included in academic publications
-- Each experiment is linked to /Datasets/, /Software/ and /Publications/

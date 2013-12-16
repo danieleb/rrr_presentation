@@ -3,3 +3,11 @@
 *.tex
 *.bbl
 *.blg
+*#
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.gz
+*.toc
